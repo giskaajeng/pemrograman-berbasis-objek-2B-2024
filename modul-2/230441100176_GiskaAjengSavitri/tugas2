@@ -1,0 +1,30 @@
+ant -f "C:\\Users\\giska\\OneDrive\\Dokumen\\giska pbo\\modul 2" -Dnb.internal.action.name=rebuild clean jar
+init:
+deps-clean:
+Updating property file: C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\build\built-clean.properties
+Deleting directory C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\build
+clean:
+init:
+deps-jar:
+Created dir: C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\build
+Updating property file: C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\build\built-jar.properties
+Created dir: C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\build\classes
+Created dir: C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\build\empty
+Created dir: C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\build\generated-sources\ap-source-output
+Compiling 2 source files to C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\build\classes
+C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\src\modul\pkg2\Mahasiswa.java:58: error: class Main is public, should be declared in a file named Main.java
+public class Main{
+C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\src\modul\pkg2\main.java:12: error: duplicate class: modul.pkg2.Mahasiswa
+class Mahasiswa {
+C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\src\modul\pkg2\main.java:42: error: duplicate class: modul.pkg2.Universitas
+class Universitas{
+C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\src\modul\pkg2\main.java:60: error: cannot find symbol
+        Universitas.setnamaUniversitas(namaUniversitas);
+  symbol:   method setnamaUniversitas(String)
+  location: class Universitas
+C:\Users\giska\OneDrive\Dokumen\giska pbo\modul 2\src\modul\pkg2\main.java:114: error: cannot find symbol
+        System.out.println("Daftar Mahasiswa di"+ Universitas.getnamaUniversitas()+":");
+  symbol:   method getnamaUniversitas()
+  location: class Universitas
+5 errors
+BUILD FAILED (total time: 4 seconds)
