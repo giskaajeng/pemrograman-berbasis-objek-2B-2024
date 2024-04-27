@@ -31,3 +31,7 @@ public class Main {
         mahasiswa1.infoMahasiswa();
     }
 }
+
+
+
+    
